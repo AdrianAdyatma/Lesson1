@@ -30,12 +30,14 @@ open class Vehicle(val make: String, val model: String){
 class Car(make: String, model: String, val color: String) : Vehicle(make, model){
     override fun accelerate(){
         println("Whuzzzzz...")
+        super.accelerate()
     }
 }
 
 class Truck(make: String, model: String, val towingcapacity: Int) : Vehicle(make, model){
     fun details(){
         println("$make $model has $towingcapacity tonnes towing capacity")
+        super.brake()
     }
 }
 
