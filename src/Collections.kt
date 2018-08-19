@@ -45,7 +45,7 @@ fun main(args: Array<String>) {
     rebelVehicle.set("Luke", "X Wing")
     rebelVehicle.put("Leiah", "Tantive IV")
 
-    println(rebelVehicle)
+    println(rebelVehicle.count())
 
     rebelVehicle.remove("Leiah")
 
